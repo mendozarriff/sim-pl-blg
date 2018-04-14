@@ -11,7 +11,6 @@ class PostsIndex extends Component{
     }
     renderPosts() {
         return _.map(this.props.posts, post => {
-            console.log(post.content.length)
             return <li className="card" key={post.id}>
             <div>
                 <div className="card-body">
