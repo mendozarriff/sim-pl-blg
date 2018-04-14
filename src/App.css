@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  background: grey;
+}
+
+form a{
+    margin-left: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+.posts_index img{
+  width: 20px;
+}
+
+
+.form{
+  background: #e8e8e8;
+}
+
+form.card{
+  margin: 20px auto;
+}
+
+html{
+  background: #e8e8e8;
+}
+
+.img-responsive{
+  margin: 0 auto;
+}
+.jumbotron {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+}
+
+.categories span{
+  color: grey;
+}
+
+.title-section{
+  background: #fced46;
+  height: 50px;   
+}
+
+div.body{
+  background: #e8e8e8;
+}
+
+
+.title-section h3{
+  padding-top: 5px;
+  color: black;
+}
+
+h3.header_add-post{
+  color: black;
+  font-size: 1.2rem;
+}
+
+h3.header_add-post:hover{
+  color: grey;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.text-area{
+  height: 300px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.posts-show img{
+  width: 40px;
+}
+
+.back-to-index{
+  color: black;
+  margin-top: 10px;
+}
+
+.trash-can img{
+  cursor:pointer;
+}
+/* label {
+  color: #b8b8b8;
+} */
+
+.card-link{
+  color: #b8b8b8;
+}
+.card-link:hover{
+  color: green;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
